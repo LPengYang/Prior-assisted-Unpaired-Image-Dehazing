@@ -24,11 +24,11 @@ Code will be available soon.
 ## Citation
 If you use our work, please consider citing:
 
-  @article{ling2025prior,
-  title={Prior-assisted unpaired image dehazing framework for enhanced visibility in real-world hazy scenarios},
-  author={Ling, Pengyang and Wang, Haoxuan and Chen, Huaian and Gu, Yuxuan and Jin, Yi and Zheng, Jinjin},
-  journal={Expert Systems with Applications},
-  volume={291},
-  pages={128488},
-  year={2025},
-  publisher={Elsevier}}
+    @article{ling2025prior,
+    title={Prior-assisted unpaired image dehazing framework for enhanced visibility in real-world hazy scenarios},
+    author={Ling, Pengyang and Wang, Haoxuan and Chen, Huaian and Gu, Yuxuan and Jin, Yi and Zheng, Jinjin},
+    journal={Expert Systems with Applications},
+    volume={291},
+    pages={128488},
+    year={2025},
+    publisher={Elsevier}}
