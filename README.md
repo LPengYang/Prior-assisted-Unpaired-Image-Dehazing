@@ -9,7 +9,7 @@ Extensive experiments demonstrate that the proposed method outperforms start-of-
 
 ## 🎈 Quick Start on Pytorch 
 ```
-Code will be available soon.
+python testing.py --model_load_path "your pretrained_model_path" --testing_image_dir "your testing_image_dir" --save_results_dir "your results save_dir"
 ```
 
 
