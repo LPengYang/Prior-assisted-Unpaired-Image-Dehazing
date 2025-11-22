@@ -41,7 +41,7 @@ if __name__ == '__main__':
         os.mkdir(path_save_images)
 
     dehaze_j = Dehaze_mix(input_nc=3,output_nc=3,ngf=64,n_downsampling=2, n_mixblock=1,).to(device)
-    dehaze_j.load_state_dict(torch.load(os.path.join(path_load,'current_dehaze_j.pt'),map_location='cuda:0'))
+    dehaze_j.load_state_dict(torch.load(path_load, map_location='cuda:0'))
     dehaze_j.eval()
 
     data_transform = transforms.Compose([transforms.ToTensor(),transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),])
