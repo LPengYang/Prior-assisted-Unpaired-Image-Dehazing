@@ -8,11 +8,22 @@ Extensive experiments demonstrate that the proposed method outperforms start-of-
 
 
 ## 🎈 Quick Start on Pytorch 
+### Perform testing on local hazy images 
 ```
 python testing.py --model_load_path "your pretrained_model_path" --testing_image_dir "your testing_image_dir" --save_results_dir "your results save_dir"
 ```
-## The training data is loaded from the following link 
+## Training data is loaded from the following link 
 [Google drive](https://drive.google.com/file/d/1NIm-o01AOdjGn3kvsVA57TEn6jYNKGr4/view?usp=sharing), collected by [RefineDNet](https://github.com/xiaofeng94/RefineDNet-for-dehazing)
+
+### Training the dehazing model on customized data
+```
+python train_paud.py --save_dir "your save_dir" --train_haze_dir "your dir of hazy image for training" --train_clean_dir "your dir of clean images for training"
+```
+
+## 🏗️ Todo
+- [x] 🚀 Release the training code
+- [x] 🚀 Release the testing code
+- [x] 🚀 Release paper
 
 ## Framework & Architecture of Prior-assisted Unpaired Image Dehazing
 
