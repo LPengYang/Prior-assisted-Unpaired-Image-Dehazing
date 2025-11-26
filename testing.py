@@ -58,4 +58,4 @@ if __name__ == '__main__':
 
             image_dehaze = dehaze_j(image)
             image_dehaze = F.interpolate(image_dehaze, size=(shape[2],shape[3]), mode="bilinear", align_corners=True)
-            vutils.save_image(image_dehaze[0,:]/2+0.5,os.path.join(path_save_images+haze_name[0]))
+            vutils.save_image(image_dehaze[0,:]/2+0.5,os.path.join(path_save_images, haze_name[0]))
