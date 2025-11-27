@@ -21,6 +21,7 @@ python train_paud.py --save_dir "your save_dir" --train_haze_dir "your dir of ha
 ```
 
 ## 🏗️ Todo
+- [x] 🚀 Release the pretrained model
 - [x] 🚀 Release the training code
 - [x] 🚀 Release the testing code
 - [x] 🚀 Release paper
